@@ -1,0 +1,11 @@
+License & Copyright
+
+These assets are created by [Your Name/Studio Name]. By downloading them, you agree to the following:
+
+    Commercial Use: You are free to use these assets in any of your game projects, including commercial ones.
+
+    Modification: You can edit or change these sprites to fit the needs of your game.
+
+    No Reselling: Please do not resell, redistribute, or sub-license these assets as your own, even if they are modified.
+
+    Credit: Attribution is not required, but a shout-out to [Your Name] in your credits is always deeply appreciated!
