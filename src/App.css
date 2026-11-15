@@ -1,0 +1,153 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: white;
+}
+
+.screen {
+  min-height: 100dvh;
+  padding: 70px 20px 30px;
+  padding-top: calc(70px + env(safe-area-inset-top));
+  background:
+    radial-gradient(circle at 50% 45%, #61339a, transparent 55%),
+    linear-gradient(160deg, #24123f, #100a20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: #dfc5f9;
+}
+
+.stars {
+  color: #ffe19a;
+  letter-spacing: 18px;
+  font-size: 24px;
+}
+
+.gift {
+  width: 190px;
+  height: 190px;
+  position: relative;
+  margin: 70px 0 35px;
+  cursor: pointer;
+  filter: drop-shadow(0 0 40px #c66bff80);
+}
+
+.gift-body {
+  position: absolute;
+  width: 170px;
+  height: 135px;
+  left: 10px;
+  bottom: 0;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #fba8d7, #ad4aa4);
+  box-shadow: inset -12px -8px 0 #842d8930;
+}
+
+.gift-lid {
+  position: absolute;
+  z-index: 2;
+  width: 190px;
+  height: 45px;
+  left: 0;
+  top: 12px;
+  border-radius: 7px;
+  background: #e981bf;
+  transform-origin: left bottom;
+  transition: transform 0.8s ease, opacity 0.8s;
+}
+
+.body-ribbon,
+.lid-ribbon {
+  position: absolute;
+  width: 34px;
+  height: 100%;
+  background: #ffe39a;
+  left: calc(50% - 17px);
+}
+
+.opening .gift-lid {
+  transform: translateY(-105px) rotate(-18deg);
+  opacity: 0;
+}
+
+.opening .gift-body {
+  animation: shake 0.5s ease;
+}
+
+@keyframes shake {
+  0%, 100% { transform: rotate(0); }
+  25% { transform: rotate(-5deg); }
+  75% { transform: rotate(5deg); }
+}
+
+button {
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(90deg, #ffd58a, #ff9fc8);
+  padding: 16px 28px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #392040;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: #080414d9;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+.modal {
+  width: min(100%, 360px);
+  background: linear-gradient(145deg, #513083, #261640);
+  border: 1px solid #c18cff;
+  border-radius: 28px;
+  padding: 34px 22px;
+  box-shadow: 0 0 70px #b76aff65;
+  animation: pop 0.4s ease-out;
+}
+
+.reward-icon {
+  font-size: 85px;
+}
+
+.modal h3 {
+  color: #ffdf92;
+  font-size: 26px;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.65);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
