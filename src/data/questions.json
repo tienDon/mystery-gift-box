@@ -61,12 +61,13 @@
       "topic": "Giải thích số 666",
       "prompt": "Giải thích về số 666",
       "options": [
-        { "id": "a", "text": "Lượng vàng Sô-lô-môn nhận từ ngoại bang." },
-        { "id": "b", "text": "Lượng vàng Sô-lô-môn dùng để tạo khiên vàng bảo vệ bản thân." },
-        { "id": "c", "text": "666 = 600 siếc-lơ + cao 60 cu-bít + rộng 6 cu-bít." },
-        { "id": "d", "text": "Quy mô pho tượng vua Babylon Nê-bu-cát-nết-sa dựng lên để bảo vệ bản thân." }
+        { "id": "a", "text": "Là lượng vàng Sô-lô-môn nhận hằng năm từ ngoại bang; bài học liên hệ điều này với kẻ giống Sô-lô-môn: tiếp nhận ảnh hưởng ngoại bang và dẫn dân thờ thần ngoại bang." },
+        { "id": "b", "text": "Là lượng vàng Sô-lô-môn dùng làm khiên bảo vệ bản thân; số vàng này chính là kích thước pho tượng vua Babylon dựng lên." },
+        { "id": "c", "text": "666 = 600 siếc lơ + cao 60 cubit + rộng 6 cubit" },
+        { "id": "d", "text": "Qua việc vua Babylon dựng pho tượng để bảo vệ bản thân, bài học liên hệ đến Oh-ssi cũng dựng hình tượng để bảo vệ bản thân." },
+        {"id": "e", "text": "Là số lượng vàng mà thực thể của số 666 ở thời đại ngày nay sở hữu."}
       ],
-      "correctOptionIds": ["a", "c"],
+      "correctOptionIds": ["a", "c", "d"],
       "explanation": "",
       "references": [],
       "image": null
