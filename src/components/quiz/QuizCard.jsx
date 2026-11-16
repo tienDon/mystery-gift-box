@@ -3,7 +3,7 @@ import { ArrowRight, Check, Circle, Square, X } from 'lucide-react';
 import { isAnswerCorrect, toggleOption } from './quizLogic';
 import './QuizCard.css';
 
-export default function QuizCard({ question, index, total, onNext, onSelect }) {
+export default function QuizCard({ question, index, total, onNext, onSelect, onConfirm }) {
   const [selectedIds, setSelectedIds] = useState([]);
   const [confirmed, setConfirmed] = useState(false);
   const heading = useRef(null);
@@ -23,7 +23,10 @@ export default function QuizCard({ question, index, total, onNext, onSelect }) {
     event.preventDefault();
     if (!selectedIds.length) return;
     if (confirmed) onNext();
-    else setConfirmed(true);
+    else {
+      setConfirmed(true);
+      onConfirm?.(correct);
+    }
   }
 
   return <form className="quiz-card question-card live-quiz" onSubmit={submit} aria-labelledby={`question-${question.id}`}>
