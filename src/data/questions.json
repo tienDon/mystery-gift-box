@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "lunch-quiz",
+  "title": "Câu hỏi trong bữa trưa",
+  "description": "Câu hỏi theo nội dung bài học. Đáp án tạm giữ theo dấu đánh dấu trong bản gốc, cần được người biên soạn rà soát trước khi sử dụng.",
+  "status": "draft",
+  "language": "vi",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "multiple",
+      "topic": "Chuẩn bị tấm lòng",
+      "prompt": "Giờ thờ phượng sắp bắt đầu. Tấm lòng chúng ta đã thật sự sẵn sàng để ngôi lời của Cha bén rễ và biến đổi mình chưa? Chúng ta cần chuẩn bị điều gì để trở thành mảnh đất tốt?",
+      "options": [
+        { "id": "a", "text": "Chỉ cần có mặt đúng giờ, còn những lo lắng và suy nghĩ trong lòng có thể để nguyên như vậy." },
+        { "id": "b", "text": "Cầu nguyện xin Cha mở lòng, ban sự thấu hiểu để ngôi lời trở thành hành động và sự biến đổi trong chính mình." },
+        { "id": "c", "text": "Chuẩn bị tác phong nghiêm chỉnh, không gian sạch sẽ và yên tĩnh để bước vào giờ thờ phượng với lòng tôn kính." },
+        { "id": "d", "text": "Thành thật nhìn lại điều mình đang gặp khó khăn, chuẩn bị câu hỏi và cầu nguyện xin Cha ban trí tuệ để vượt qua." }
+      ],
+      "correctOptionIds": ["b", "c", "d"],
+      "explanation": "",
+      "references": [],
+      "image": null
+    },
+    {
+      "id": "q02",
+      "type": "single",
+      "topic": "Mua bán trong tín ngưỡng",
+      "prompt": "Mua bán trong tín ngưỡng là gì?",
+      "options": [
+        { "id": "a", "text": "Thuyết giảng ngôi lời và lắng nghe ngôi lời." },
+        { "id": "b", "text": "Làm theo ngôi lời và nhận lại phước lành." },
+        { "id": "c", "text": "Trao đổi những trải nghiệm cá nhân để giúp nhau hiểu ngôi lời." },
+        { "id": "d", "text": "Dâng hiến vật chất để hỗ trợ việc truyền giảng ngôi lời." }
+      ],
+      "correctOptionIds": ["a"],
+      "explanation": "",
+      "references": [],
+      "image": null
+    },
+    {
+      "id": "q03",
+      "type": "multiple",
+      "topic": "Sô-lô-môn và Oh-ssi",
+      "prompt": "Đặc điểm chung của Solomon thời cựu ước và Oh-ssi là gì?",
+      "options": [
+        { "id": "a", "text": "Có sự pha trộn giữa dân được chọn và ngoại bang: Sô-lô-môn về dòng máu, Oh-ssi về nguồn gốc và sự dẫn dắt trong tâm linh." },
+        { "id": "b", "text": "Qua lại với ngoại bang: Sô-lô-môn yêu phụ nữ ngoại bang và thờ thần của họ; Oh-ssi qua lại với mục tử ngoại bang và nhận giáo lý giả." },
+        { "id": "c", "text": "Dẫn dân được chọn đi theo sự thờ phượng ngoại bang, khiến vương quốc của Đức Chúa Trời sụp đổ." },
+        { "id": "d", "text": "Đều dựng pho tượng có kích thước cao 60 cu-bít, rộng 6 cu-bít để bảo vệ bản thân." },
+        { "id": "e", "text": "Đều nhận đúng 666 ta-lâng vàng mỗi năm từ ngoại bang." }
+      ],
+      "correctOptionIds": ["a", "b", "c"],
+      "explanation": "",
+      "references": [],
+      "image": null
+    },
+    {
+      "id": "q04",
+      "type": "multiple",
+      "topic": "Giải thích số 666",
+      "prompt": "Giải thích về số 666",
+      "options": [
+        { "id": "a", "text": "Lượng vàng Sô-lô-môn nhận từ ngoại bang." },
+        { "id": "b", "text": "Lượng vàng Sô-lô-môn dùng để tạo khiên vàng bảo vệ bản thân." },
+        { "id": "c", "text": "666 = 600 siếc-lơ + cao 60 cu-bít + rộng 6 cu-bít." },
+        { "id": "d", "text": "Quy mô pho tượng vua Babylon Nê-bu-cát-nết-sa dựng lên để bảo vệ bản thân." }
+      ],
+      "correctOptionIds": ["a", "c"],
+      "explanation": "",
+      "references": [],
+      "image": null
+    },
+    {
+      "id": "q05",
+      "type": "single",
+      "topic": "Thực thể của số 666",
+      "prompt": "Thực thể của số 666 là ai?",
+      "options": [
+        { "id": "a", "text": "Con thú biển Tak ssi." },
+        { "id": "b", "text": "Yu ssi (Sam-sôn)." },
+        { "id": "c", "text": "Kẻ hủy diệt Kim ssi." },
+        { "id": "d", "text": "Con thú đất Oh ssi." }
+      ],
+      "correctOptionIds": ["d"],
+      "explanation": "",
+      "references": [],
+      "image": null
+    },
+    {
+      "id": "q06",
+      "type": "single",
+      "topic": "Đền tạm và Sô-lô-môn",
+      "prompt": "Đền tạm tức trời và Sô lô môn có gì giống nhau?",
+      "options": [
+        { "id": "a", "text": "Thờ thần ngoại bang." },
+        { "id": "b", "text": "Yêu người ngoại bang." },
+        { "id": "c", "text": "Vương quốc sụp đổ vì thờ thần ngoại bang." },
+        { "id": "d", "text": "Vương quốc sụp đổ vì giáo lý giả." }
+      ],
+      "correctOptionIds": ["c"],
+      "explanation": "",
+      "references": [],
+      "image": null
+    },
+    {
+      "id": "q07",
+      "type": "single",
+      "topic": "Người nhận dấu của con thú",
+      "prompt": "Kết quả của người nhận dấu của con thú?",
+      "options": [
+        { "id": "a", "text": "Khải Huyền 20:4–5: Tham gia vào sự sống lại thứ nhất." },
+        { "id": "b", "text": "1 Cô-rinh-tô 15:51–54: Nhận sự phục sinh." },
+        { "id": "c", "text": "Khải Huyền 14:9–11: Hồ lửa lưu huỳnh." }
+      ],
+      "correctOptionIds": ["c"],
+      "explanation": "",
+      "references": [],
+      "image": null
+    },
+    {
+      "id": "q08",
+      "type": "single",
+      "topic": "Người không nhận dấu của con thú",
+      "prompt": "Theo nội dung bài học, kết quả của người không nhận dấu của con thú là gì?",
+      "options": [
+        { "id": "a", "text": "Khải Huyền 20:4–5: Tham gia vào sự sống lại thứ nhất." },
+        { "id": "b", "text": "1 Cô-rinh-tô 15:51–54: Phục sinh và sự sống đời đời." },
+        { "id": "c", "text": "Khải Huyền 20:15: Bị quăng xuống hồ lửa." }
+      ],
+      "correctOptionIds": ["a"],
+      "explanation": "",
+      "references": [],
+      "image": null
+    },
+    {
+      "id": "q09",
+      "type": "single",
+      "topic": "Bằng chứng được đóng ấn",
+      "prompt": "Bằng chứng đã được đóng ấn là gì?",
+      "options": [
+        { "id": "a", "text": "Thuộc về núi Si-ôn." },
+        { "id": "b", "text": "Thuộc về Babylon." },
+        { "id": "c", "text": "Ghi chép đầy đủ ngôi lời trong sách vở, máy tính." }
+      ],
+      "correctOptionIds": ["a"],
+      "explanation": "",
+      "references": [],
+      "image": null
+    },
+    {
+      "id": "q10",
+      "type": "multiple",
+      "topic": "Quan tâm và tiếp sức",
+      "prompt": "Dấu hiệu chú Chiên đang thờ hình tượng cần tiếp sức ngay?",
+      "options": [
+        { "id": "a", "text": "Thờ hình tượng bản thân, đặt ý muốn bản thân lên trên ý muốn của Đức Chúa Trời, chỉ làm theo điều mình muốn dù trái với ngôi lời." },
+        { "id": "b", "text": "Phân biệt thiện ác cho bản thân. Căm ghét điều ác và không hiệp nhất với điều ác Satan gieo trong suy nghĩ và tấm lòng." },
+        { "id": "c", "text": "Nghe và tiếp nhận những lời nói của người ở ngoài thế gian (phải kiếm nhiều tiền, có công việc tốt và ổn định, cưới chồng/vợ...)." },
+        { "id": "d", "text": "Khi ý muốn bản thân khác với ngôi lời, luôn nhìn nhận và điều chỉnh để vâng phục ý muốn của Đức Chúa Trời." }
+      ],
+      "correctOptionIds": ["a", "c"],
+      "explanation": "",
+      "references": [],
+      "image": null
+    }
+  ]
+}
